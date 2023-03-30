@@ -81,8 +81,20 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
+        cursor: pointer;
     }
     .hero .hero_btn:hover,
     .hero .hero_btn:focus {
        background-color:  #404BBF;  
+    }
+    .q_section_item_title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42 ;
+    }
+    .q_section_item_txt {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
