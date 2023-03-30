@@ -43,10 +43,10 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42 ;
 }
-.list_item .link:hover{
+.nav-list .link:hover{
     color: #404bbf
 }
-.list_item .link:focus {
+.nav-list .link:focus {
     color: #404bbf
 }
 .add-ress {
@@ -57,9 +57,32 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.add_style .link:hover {
+.add-list .link:hover {
     color: #404bbf;
 }
-.add_style .link:focus {
+.add-list .link:focus {
     color: #404bbf;
 }
+.hero {
+    background-color: #2e2f42;
+}
+.hero_title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    }
+    .hero_btn {
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+    }
+    .hero .hero_btn:hover,
+    .hero .hero_btn:focus {
+       background-color:  #404BBF;  
+    }
