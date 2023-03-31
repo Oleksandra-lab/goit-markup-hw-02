@@ -147,12 +147,12 @@ body {
         cursor: pointer;
     }
 
-    .o_section .o_section_btn:hover,
-    .o_section .o_section_btn:focus {
+    .o_section_btn:hover,
+    .o_section_btn:focus {
         color: #FFFFFF;
     }
-    .o_section .o_section_btn:hover,
-    .o_section .o_section_btn:focus {
+    .o_section_btn:hover,
+    .o_section_btn:focus {
      background-color: #404BBF;
     }
 
