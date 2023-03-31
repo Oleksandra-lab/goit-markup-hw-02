@@ -146,11 +146,14 @@ body {
         color: #4d5ae5 ;
         cursor: pointer;
     }
-    .o_section .o_section_btn:hover {
-        color: #FFFFFF;
-        background-color: #404BBF;
-       
 
+    .o_section .o_section_btn:hover,
+    .o_section .o_section_btn:focus {
+        color: #FFFFFF;
+    }
+    .o_section .o_section_btn:hover,
+    .o_section .o_section_btn:focus {
+     background-color: #404BBF;
     }
 
     .o_section_item_title {
