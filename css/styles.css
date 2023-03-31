@@ -146,12 +146,25 @@ body {
         color: #4d5ae5 ;
         cursor: pointer;
     }
-    .o_section .o_section_btn:hover,
-    .o_section .o_section_btn:focus {
+    .o_section .o_section_btn:hover {
         color: #FFFFFF;
         background-color: #404BBF;
        
 
+    }
+
+    .o_section_item_title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+    .o_section_item_txt {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
     }
     .ftr {
         background-color: #2e2f42;
